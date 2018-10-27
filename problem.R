@@ -58,3 +58,4 @@ for(n in 1:length(listaSumandosSp)){
   cuantos1Primos <- c(cuantos1Primos, length(which(listaSumandosSp[[n]][,4] %in% 1)))
 }
 solucion <- listaSumandosSp[which(cuantos1Primos %in% 1)]
+##Con eso obtenemos la solución
